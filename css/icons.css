@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(86, 61, 79);
+}
+
+h1{
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(231, 157, 181);
+    text-shadow: 2px 2px 4px rgba(54, 26, 43, 0.7);
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i {
+    font-size: 200px;
+    color: rgb(86, 61, 79);
+    background-color: pink;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.icons i:hover {
+    background-color: rgb(155, 101, 155);
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center; 
+}
+
+a {
+    color: pink;
+    font-size: 30px;
+}
